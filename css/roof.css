@@ -34,11 +34,15 @@ div.location-picker input {
 
 div.image-container {
   margin-top: 30px;
-  background: url(./roof.jpg);
   width: 560px;
   height: 426px;
   display: flex;
   flex-direction: column;
+  background-color: blue;
+}
+
+div.image-container.show {
+  background: url(./roof.jpg);
 }
 
 div.text-row {
@@ -53,7 +57,7 @@ div.text-row > div {
 div.text,
 div.number {
   text-align: end;
-  color: #C2C2C2;
+  color: #FFFFFF;
   font-size: 36px;
   text-shadow: 0 0 2px #000000, 1px 0 2px #000000, 0 1px 2px #000000, 1px 1px 2px #000000, -1px 0 2px #000000, 0 -1px 2px #000000, -1px -1px 2px #000000, 1px -1px 2px #000000, -1px 1px 2px #000000;
   font-family: "DejaVu Serif";
